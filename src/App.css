@@ -1,0 +1,29 @@
+.App {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.card:first-of-type {
+    border-radius: 20px 0 0 20px;
+}
+
+.card:last-of-type {
+    border-radius: 0 20px 20px 0;
+}
+
+@media screen and (max-width: 614px) {
+    .App {
+        flex-direction: column;
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: translate(0, 0);
+        margin: 20px;
+        align-items: center;
+    };   
+}

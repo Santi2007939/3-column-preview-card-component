@@ -1,27 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins&family=Roboto:wght@400;700&display=swap");
 .card {
   display: flex;
   width: 25%;
-  height: 470px;
+  height: 500px;
   flex-direction: column;
   padding: 40px;
 }
 .card__img {
-  width: 80px;
-  margin-bottom: 10px;
+  width: 60px;
+  margin-bottom: 18px;
 }
 .card__title {
   color: #f3f3f3;
-  font-family: "Poppins", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 40px;
-  margin-bottom: 1px;
+  margin-bottom: 30px;
   margin-top: 10px;
 }
 .card__paragraph {
   color: #e1e0e0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   text-align: justify;
 }
 .card__button {
@@ -33,9 +33,9 @@
   width: fit-content;
   padding: 15px 30px;
   margin-left: 5px;
-  border-radius: 15px;
-  font-family: "Poppins", sans-serif;
-  font-size: 13px;
+  border-radius: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
   border: 2px solid #f3f3f3;
 }
 .card__button:hover, .card__button:active {
